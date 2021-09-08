@@ -19,22 +19,22 @@ export default function SideBar(){
             <LineButton />
         </Button>
         <List state={state}>
-          <Link href='/view'>
+          <Link href='/posts/'>
             <ListItem>
               Visualizar posts
           </ListItem>
           </Link>
-          <Link href='/add'>
+          <Link href='/posts/add'>
             <ListItem>
               Cadastrar posts
           </ListItem>
           </Link>
-          <Link href='/edit'>
+          <Link href='/posts/edit'>
             <ListItem>
               Editar posts
           </ListItem>
           </Link>
-          <Link href='/delete'>
+          <Link href='/posts/delete'>
             <ListItem>
               Deletar posts
           </ListItem>

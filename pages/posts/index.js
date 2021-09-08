@@ -1,7 +1,7 @@
-import SideBar from '../src/components/SideBar';
-import {Layout} from '../src/components/Layout';
-import {Container} from '../src/components/Container';
-import {Title, Cards, Card, TitleCard, TextCard, Small, ReadMore} from '../src/components/Post/';
+import SideBar from '../../src/components/SideBar';
+import {Layout} from '../../src/components/Layout';
+import {Container} from '../../src/components/Container';
+import {Title, Cards, Card, TitleCard, TextCard, Small, ReadMore} from '../../src/components/Post';
 
 export default function Home() {
   return (

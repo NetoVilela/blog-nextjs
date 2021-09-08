@@ -22,6 +22,21 @@ export const Card = styled.div`
     border:  1px solid #293949;
     border-radius: 7px;
     margin: 5px; 
+    @media (max-width: 480px) {
+        width: 100%;
+    }
+
+    @media (min-width: 481px) and (max-width: 768px) {
+        width: 100%;
+    }
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+        width: 45%;
+    }
+
+    @media (min-width: 1025px) {
+        
+    }
      
 `;
 
